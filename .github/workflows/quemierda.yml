@@ -4,7 +4,7 @@ on:
   workflow_dispatch: {}
   push:
     paths:
-    - 'docs/**'
+    - 'main/**'
     - 'package-lock.json'
     - 'package.json'
     - 'yarn.lock'
